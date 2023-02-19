@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(221, 214, 230, 0.555);
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 340px;
+    max-width: 100%;
+    box-shadow: 0 0 15px rgba(165, 4, 165, 0.527);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    min-height: 80%;
+}
+
+.card-body{
+    width: 270px;
+    max-width: 100%;
+
+}
+
+.card-body h3{
+    font-weight: bolder;
+}
+
+.card-body .members-import{
+    display: flex;
+    justify-content: space-between;
+}
+
+.members-import button{
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    outline: none;
+    background-color: transparent;
+    padding: 4px 8px;
+}
+
+.input-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 270px;
+    height: 35px;
+    position: relative;
+}
+
+.input-1 input{
+    height: 100%;
+    width: 100%;
+    padding-left: 30px;
+    outline: none;
+}
+
+.input-1 #search-icon{
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    color: gray;
+}
+
+.input-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 270px;
+    height: 35px;
+    position: relative;
+}
+
+.input-2 label{
+    font-size: 13px;
+}
+
+.input-2 input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    outline: none;
+}
+
+.input-2 #paste-icon{
+    position: absolute;
+    top: 80%;
+    right: 10px;
+}
+
+.members{
+    margin-top: 50px;
+}
+
+.members small{
+    margin-bottom: 30px;
+}
+
+.members > .member-1, .member-2, .member-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.members .user-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+
+.members .user-img img{
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    object-fit: cover;
+    object-position: center;
+}
+
+.members button{
+    height: 30px;
+    width: 60px;
+    background-color: #000;
+    color: #fff;
+}
+
+
