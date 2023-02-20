@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.img-gallery{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+img{
+    height: 50vh;
+    width: 80px;
+    border-radius: 30px;
+    flex: 1;
+    transition: flex 0.4s ease;
+}
+
+img:hover{
+    flex: 2;
+}
+
