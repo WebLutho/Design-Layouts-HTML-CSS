@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(94, 21, 94);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 100%;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 73vh;
+    width: 410px;
+    background-color: rgba(167, 163, 163, 0.384);
+    border-radius: 10px;
+    box-shadow: 30px 20px 30px rgba(59, 59, 59, 0.288);
+    color: #fff;
+    z-index: 1;
+}
+
+form::before{
+    content: '';
+    background-color: rgba(94, 21, 94, 0.918);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+form h2{
+    color: #fff;
+}
+
+form input{
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgba(190, 186, 186, 0.534);
+    color: #fff;
+    padding-left: 20px;
+}
+
+form input::placeholder{
+    color: #fff;
+}
+
+form button{
+    height: 50px;
+    width: 180px;
+    background-color: rgba(190, 186, 186, 0.534);
+    box-shadow: 10px 10px 30px rgba(59, 59, 59, 0.288);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+form small{
+    cursor: pointer;
+}
+
+.box-1{
+    top: 150px;
+    left: 500px;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: rgba(190, 186, 186, 0.534);
+    box-shadow: 10px 10px 30px rgba(59, 59, 59, 0.288);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.box-2{
+    top: 140px;
+    left: 920px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(190, 186, 186, 0.534);
+    box-shadow: 10px 10px 30px rgba(59, 59, 59, 0.288);
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.box-3{
+    top: 330px;
+    left: 920px;
+    position: absolute;
+    height: 85px;
+    width: 85px;
+    background-color: rgba(190, 186, 186, 0.534);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.box-4{
+    left: 920px;
+    top: 600px;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: rgba(190, 186, 186, 0.534);
+    border-radius: 10px;
+    z-index: 100;
+}
