@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(11, 11, 41);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.card-1{
+    background-color: #fff;
+    width: 360px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card-body{
+    margin: 40px;
+}
+
+.card-body .maths{
+    margin-bottom: 10px;
+}
+
+.card-body .chemistry{
+    margin-bottom: 10px;
+}
+
+.card-body .science{
+    margin-bottom: 10px;
+}
+
+
+.card-body h4{
+    font-size: 18px;
+    margin-bottom: 5;
+}
+
+.card-body label{
+    font-size: 13px;
+}
+
+.card-body small{
+    font-size: 12px;
+}
+
+.card-body .bar{
+    height: 10px;
+    width: 90%;
+    background-color: rgb(211, 206, 206);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.card-body .bar-wrapper {
+    display: flex;
+}
+
+.bar-wrapper .bar .orange-bar{
+    height: 100%;
+    width: 52%;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.bar-wrapper .bar .blue-bar{
+    height: 100%;
+    width: 76%;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.bar-wrapper .bar .red-bar{
+    height: 100%;
+    width: 21%;
+    border-radius: 5px;
+    background-color: #ff0055;
+}
+
+.card-1 .btn{
+    height: 30px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.card-2{
+    background-color: #fff;
+    width: 300px;
+    height: 270px;
+    border-radius: 10px;
+    position: absolute;
+    top: 58%;
+    left: 66%;
+}
+
+.card-2 .card-body .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-2 .card-body div button{
+    background-color: #000;
+    color: #fff;
+    height: 30px;
+    width: 40px;
+    border-radius: 10px;
+}
+
